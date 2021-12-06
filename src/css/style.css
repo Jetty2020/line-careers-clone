@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+/* 영어 폰트 400, 500, 700, 900 */
+/* font-family: 'Roboto', sans-serif; */
+/* 한글 폰트 300, 400, 500, 700 */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body {
+  /* word-break: keep-all;
+  word-wrap: break-word; */
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -1px;
+}
