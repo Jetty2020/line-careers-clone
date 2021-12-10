@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 88px;
+  padding: 0 20px;
+  background-color: pink;
+  font-family: 'Roboto', sans-serif;
+}
+.header > h1 {
+  width: 150px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0px;
+}
+.nav {
+  display: flex;
+  width: calc(100% - 150px);
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul > li {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.nav-right {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.nav-right > button {
+  display: flex;
+  background: none;
+  border: none;
+}
+.nav-right > ul {
+  display: none;
+}

@@ -4,6 +4,8 @@
 /* 한글 폰트 300, 400, 500, 700 */
 /* font-family: 'Noto Sans KR', sans-serif; */
 
+@import "component.css";
+
 body {
   /* word-break: keep-all;
   word-wrap: break-word; */
