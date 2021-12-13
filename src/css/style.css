@@ -5,6 +5,7 @@
 /* font-family: 'Noto Sans KR', sans-serif; */
 
 @import "component.css";
+@import "screen/landing.css";
 
 body {
   /* word-break: keep-all;
