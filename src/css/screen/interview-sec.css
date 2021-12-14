@@ -1,0 +1,61 @@
+.interview-sec {
+  padding: 120px 10vw;
+  background: no-repeat 0 0 / 100% 400px url(../../img/meet-glob-back.jpg);
+}
+.interview-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0;
+  margin-bottom: 100px;
+}
+.interview-sec ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+.interview-sec li {
+  width: 350px;
+}
+.interview-sec a {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 30px 28px;
+  box-sizing: border-box;
+}
+.interview-sec ul > li > a {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.interview-sec strong {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  font-weight: 900;
+}
+.interview-job {
+  line-height: 52px;
+  font-size: 46px;
+}
+.interviewer-name {
+  margin: 120px 0 15px 0;
+  line-height: 36px;
+  font-size: 28px;
+}
+.interview-sec em {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.interview-sec p {
+  display: -webkit-box;
+  color: #616161;
+  height: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 25px;
+  word-wrap: break-word;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}

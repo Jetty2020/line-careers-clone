@@ -5,7 +5,9 @@
 /* font-family: 'Noto Sans KR', sans-serif; */
 
 @import "component.css";
-@import "screen/landing.css";
+@import "screen/header-sec.css";
+@import "screen/experience-sec.css";
+@import "screen/interview-sec.css";
 
 body {
   /* word-break: keep-all;
