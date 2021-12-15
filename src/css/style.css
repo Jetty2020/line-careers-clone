@@ -15,3 +15,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -1px;
 }
+
+.btn-off {
+  display: none;
+}

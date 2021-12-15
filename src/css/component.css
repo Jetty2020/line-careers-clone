@@ -13,6 +13,7 @@
   color: #fff;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0px;
+  z-index: 100;
 }
 .header > h1 {
   width: 150px;
@@ -28,7 +29,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav ul {
+.nav .nav-menu {
   display: flex;
 }
 .nav .nav-menu > li {
@@ -66,6 +67,9 @@
   font-size: 15px;
   font-weight: 700;
 }
+.nav-right > button:hover {
+  opacity: 0.5;
+}
 .nav-right span {
   position: relative;
   margin-left: 5px;
@@ -80,9 +84,8 @@
   border-bottom: 3px solid transparent;
   border-left: 3px solid transparent;
 }
-.nav-right > .nav-select-lang {
-  display: none;
-  /* display: block; */
+.nav-select-lang {
+  display: block;
   position: absolute;
   width: 80px;
   top: 30px;
@@ -102,7 +105,6 @@
 .nav-right > .nav-select-lang a:hover {
   opacity: 0.6;
 }
-
 .header .btn-search::before {
   content: '';
   position: absolute;
@@ -135,4 +137,169 @@
 }
 .nav-search > input:focus {
   outline: none;
+}
+.more {
+  float: right;
+}
+.more,
+.more-riners {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.more::after,
+.more-riners::after {
+  content: '';
+  margin-left: 8px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-image: url('../img/chevron-right.svg');
+}
+.more-riners {
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+}
+
+/* footer */
+footer {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 102px auto 51px;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 44px;
+  font-size: 13px;
+}
+
+footer small {
+  line-height: 15px;
+  font-weight: 300;
+}
+.copyright {
+  margin-right: 49px;
+  letter-spacing: 0;
+}
+footer small a {
+  font-weight: 500;
+}
+footer small a:hover {
+  color: #999;
+}
+footer button {
+  border: none;
+  background: none;
+}
+footer > div {
+  display: flex;
+}
+footer div button {
+  font-weight: 700;
+}
+.btn-container {
+  position: relative;
+}
+.sns-list {
+  display: flex;
+  align-items: center;
+}
+.sns-list li:not(:last-child) {
+  margin-right: 10px;
+}
+.sns-list img {
+  width: 25px;
+  height: 25px;
+}
+.sns-list img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.related-list {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.related-list:hover {
+  color: #999;
+}
+.related-list::after {
+  content: '';
+  margin-left: 3px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-image: url('../img/chevron-down-black.svg');
+}
+.related-list:hover::after {
+  opacity: 0.5;
+}
+.related-items,
+.insta-list,
+.face-list,
+.in-list,
+.you-list {
+  box-sizing: border-box;
+  position: absolute;
+  border: 1px solid #e1e1e1;
+  padding: 11px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  letter-spacing: 0;
+  background: #fff;
+}
+.related-items {
+  bottom: 71px;
+  left: 0;
+}
+.insta-list,
+.face-list,
+.in-list,
+.you-list {
+  /* width: 170px; */
+  bottom: 50px;
+  padding: 20px 0;
+}
+.insta-list {
+  left: 90px;
+}
+.face-list {
+  left: 130px;
+}
+.in-list {
+  /* width: 110px; */
+  left: 210px;
+}
+.you-list {
+  left: 230px;
+}
+.insta-list > li,
+.face-list > li,
+.in-list > li,
+.you-list > li {
+  margin-bottom: 20px;
+}
+.insta-list a,
+.face-list a,
+.in-list a,
+.you-list a {
+  display: inline-block;
+  width: 150px;
+  padding-left: 18px;
+}
+.insta-list a:hover,
+.face-list a:hover,
+.in-list a:hover,
+.you-list a:hover {
+  color: #000;
+}
+.related-items a {
+  display: inline-block;
+  padding: 7px 20px 7px 15px;
+}
+.related-items a:hover {
+  color: #000;
 }

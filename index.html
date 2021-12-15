@@ -22,7 +22,7 @@
           <button class="btn-searchlang">
             <img src="src/img/globe.svg" alt="언어 선택 버튼" /><span>KR</span>
           </button>
-          <ul class="nav-select-lang">
+          <ul class="nav-select-lang btn-off">
             <li><a href="javascript:void(0)">KR</a></li>
             <li><a href="javascript:void(0)">EN</a></li>
           </ul>
@@ -42,28 +42,28 @@
         <h2 class="main-header--h2">One step closer to a better future</h2>
         <img class="background-img" src="src/img/back.jpg" alt="배경">
         <article class="category-btn-art">
-          <button>
+          <button class="btn-region">
             Region
             <img
               src="src/img/chevron-down.svg"
               alt="Region 리스트 열기"
             /></button
-          ><button>
+          ><button class="btn-city">
             City
             <img
               src="src/img/chevron-down.svg"
               alt="City 리스트 열기"
             /></button
-          ><button>
+          ><button class="btn-job">
             Job Unit
             <img src="src/img/chevron-down.svg" alt="Job Unit 열기" /></button
           ><a class="category-anc" href="javascript:void(0)" aria-label="페이지 이동"></a>
-          <ul class="region-list">
+          <ul class="region-list btn-off">
             <li><a href="javascript:void(0)">East Asia</a></li>
             <li><a href="javascript:void(0)">Southeast Asia</a></li>
             <li><a href="javascript:void(0)">North America</a></li>
           </ul>
-          <ul class="city-list">
+          <ul class="city-list btn-off">
             <li><a href="javascript:void(0)">Bundang</a></li>
             <li><a href="javascript:void(0)">Dalian</a></li>
             <li><a href="javascript:void(0)">Fukuoka</a></li>
@@ -78,7 +78,7 @@
             <li><a href="javascript:void(0)">New York</a></li>
             <li><a href="javascript:void(0)">Palo Alto</a></li>
           </ul>
-          <ul class="job-list">
+          <ul class="job-list btn-off">
             <li><a href="javascript:void(0)">Engineering</a></li>
             <li><a href="javascript:void(0)">Design</a></li>
             <li><a href="javascript:void(0)">Product Planning</a></li>
@@ -166,8 +166,8 @@
         </article>
       </section>
       <section class="interview-sec">
-        <h2 class="interview-h2">Meet the Global RINERS</h2>
-        <article>
+        <div class="interview-container">
+          <h2 class="interview-h2">Meet the Global RINERS</h2>
           <ul>
             <li>
               <a href="javascript:void(0)">
@@ -219,44 +219,45 @@
               </a>
             </li>
           </ul>
-        </article>
-        <a class="more" href="javascript:void(0)">More about RINERS</a>
+        </div>
+
+        <a class="more-riners" href="javascript:void(0)">More about RINERS</a>
       </section>
       <footer>
         <small
-          ><span>© RINE Corporation</span
+          ><span class="copyright">© RINE Corporation</span
           ><a href="javascript:void(0)">개인정보처리방침</a></small
         >
-        <div>
-          <button></button>
-          <ul>
+        <div class="btn-container">
+          <button class="related-list">Related Websites</button>
+          <ul class="related-items btn-off">
             <li><a href="javacript:void(0)">About RINE</a></li>
             <li><a href="javacript:void(0)">Engineering Blog</a></li>
             <li><a href="javacript:void(0)">RINE CREATIVE</a></li>
           </ul>
-          <ul>
+          <ul class="sns-list">
             <li>
-              <button type="button"></button>
+              <button type="button" class="btn-ins">
                 <img src="src/img/instagram.svg" alt="인스타그램 연결 이미지" />
               </button>
             </li>
             <li>
-              <button type="button">
+              <button type="button" class="btn-face">
                 <img src="src/img/facebook.svg" alt="페이스북 연결 이미지" />
               </button>
             </li>
             <li>
-              <button type="button">
+              <button type="button" class="btn-git">
                 <img src="src/img/github.svg" alt="깃헙 연결" />
               </button>
             </li>
             <li>
-              <button type="button">
+              <button type="button" class="btn-you">
                 <img src="src/img/youtube.svg" alt="유튜브 연결" />
               </button>
             </li>
           </ul>
-          <ul>
+          <ul class="insta-list btn-off">
             <li><a href="javasctipt:void(0)">[KR]Careers</a></li>
             <li><a href="javasctipt:void(0)">[KR]Creative</a></li>
             <li><a href="javasctipt:void(0)">[KR]RINE FRIENDS</a></li>
@@ -264,7 +265,7 @@
             <li><a href="javasctipt:void(0)">[JP]RINE FRIENDS</a></li>
             <li><a href="javasctipt:void(0)">[JP]Creative</a></li>
           </ul>
-          <ul>
+          <ul class="face-list btn-off">
             <li><a href="javasctipt:void(0)">[KR]Careers</a></li>
             <li><a href="javasctipt:void(0)">[KR]RINE FRIENDS</a></li>
             <li><a href="javasctipt:void(0)">[KR]Developers</a></li>
@@ -280,14 +281,14 @@
             <li><a href="javasctipt:void(0)">[JP]RINE FRIENDS</a></li>
             <li><a href="javasctipt:void(0)">Global</a></li>
           </ul>
-          <ul>
+          <ul class="in-list btn-off">
             <li><a href="javasctipt:void(0)">Korea</a></li>
             <li><a href="javasctipt:void(0)">Taiwan</a></li>
             <li><a href="javasctipt:void(0)">Thailand</a></li>
             <li><a href="javasctipt:void(0)">Indonesia</a></li>
             <li><a href="javasctipt:void(0)">Japan</a></li>
           </ul>
-          <ul>
+          <ul class="you-list btn-off">
             <li><a href="javasctipt:void(0)">[KR]Careers</a></li>
             <li><a href="javasctipt:void(0)">[KR]DevLog</a></li>
             <li><a href="javasctipt:void(0)">[KR]Developers</a></li>
@@ -299,6 +300,7 @@
             <li><a href="javasctipt:void(0)">[JP]Recruiting</a></li>
             <li><a href="javasctipt:void(0)">[JP]Developers</a></li>
           </ul>
+          <script src="./src/js/main.js"></script>
         </div>
       </footer>
     </main>
