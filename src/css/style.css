@@ -10,8 +10,6 @@
 @import "screen/interview-sec.css";
 
 body {
-  /* word-break: keep-all;
-  word-wrap: break-word; */
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -1px;
 }
